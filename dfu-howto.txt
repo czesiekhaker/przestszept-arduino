@@ -1,0 +1,5 @@
+short 2 goldpins next to the reset button (first pair from USB socket's side)
+# dfu-programmer atmega16u2 erase
+# dfu-programmer atmega16u2 flash Arduino-usbserial-mega.hex			# ← orig
+# dfu-programmer atmega16u2 flash arduino-usb/firmwares/Arduino-keyboard.hex	# ← kbd hid
+# dfu-programmer atmega16u2 reset
